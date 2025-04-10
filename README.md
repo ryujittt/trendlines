@@ -3,7 +3,9 @@ TrendLines is a PyQt5-based desktop application that fetches real-time OHLCV dat
 
 
 # Functionality
+
 Uses polynomial fitting to derive a "smart" trendline from the top 3 high-volume candles.
+high-volume candles are  doji candles wich represents a struggle or standoff between buyers and sellers characterized by high volume exchanged.
 The trend must balance between the support and resistance lines. A breakout may indicate the presence of new influencing factors.
 
 Calculates deviation to estimate potential support/resistance zones.
